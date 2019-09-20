@@ -134,10 +134,10 @@ public class VistaLogin extends javax.swing.JFrame {
         
         if(band){
             //login Correcto
-            JOptionPane.showMessageDialog(this, "Login Correcto");
+            JOptionPane.showMessageDialog(this, "Login Valida");
         }else{
             //login incorrecto
-            JOptionPane.showMessageDialog(this, "Login Incorrecto");
+            JOptionPane.showMessageDialog(this, "Login Invalido");
         }
         
     }//GEN-LAST:event_jBtnLoginActionPerformed
